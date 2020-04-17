@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ir.ac.kntu</OriginalElement>
+  <nodes>
+    <node x="392.0" y="0.0">ir.ac.kntu.gamelogic.Tunnel</node>
+    <node x="0.0" y="655.0">ir.ac.kntu.gamelogic.Caliber</node>
+    <node x="0.0" y="407.0">ir.ac.kntu.gamelogic.SniperRifle</node>
+    <node x="704.0" y="0.0">ir.ac.kntu.gamelogic.Soldier</node>
+    <node x="139.0" y="655.0">ir.ac.kntu.Main</node>
+    <node x="192.0" y="482.0">ir.ac.kntu.gamelogic.AssaultRifle</node>
+    <node x="89.25" y="0.0">ir.ac.kntu.gamelogic.Gun</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ir.ac.kntu.gamelogic.SniperRifle" target="ir.ac.kntu.gamelogic.Gun">
+      <point x="0.0" y="-101.5" />
+      <point x="86.0" y="382.0" />
+      <point x="133.5" y="382.0" />
+      <point x="-44.25" y="178.5" />
+    </edge>
+    <edge source="ir.ac.kntu.gamelogic.AssaultRifle" target="ir.ac.kntu.gamelogic.Gun">
+      <point x="0.0" y="-26.5" />
+      <point x="269.5" y="382.0" />
+      <point x="222.0" y="382.0" />
+      <point x="44.25" y="178.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6409713574097136" x="308.5192210230272" y="602.3444883435408" />
+  <SelectedNodes>
+    <node>ir.ac.kntu.gamelogic.Tunnel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
